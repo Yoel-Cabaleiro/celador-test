@@ -857,35 +857,695 @@ const getState = ({ getStore, getActions, setStore }) => {
 						{ D: "Ninguna de las opciones anteriores es correcta.", correct: false },
 					],
 				},
-
-
+				{
+					96: "El instrumental que requiere asepsia total y que temporal o definitivamente va a quedar en el interior del organismo, se denomina:",
+					Respuestas: [
+						{ A: "Crítico.", correct: true },
+						{ B: "Semicrítico.", correct: false },
+						{ C: "No crítico.", correct: false },
+						{ D: "Material fungible.", correct: false },
+					],
+				},
+				{
+					97: "Para que la conservación del material estéril sea la más adecuada, el almacén debe reunir los siguientes requisitos, EXCEPTO:",
+					Respuestas: [
+						{ A: "Las paredes deben ser lisas para facilitar su limpieza.", correct: false },
+						{ B: "Debe tener acceso restringido.", correct: false },
+						{ C: "El material debe almacenarse caliente.", correct: true },
+						{ D: "Las condiciones climáticas ideales son: ventilación (6 renovaciones por hora), temperatura (15oC - 25oC) y humedad (40% - 60%).", correct: false },
+					],
+				},
+				{
+					98: "Un material esterilizado que se encuentre envasado en contenedor (con protección del filtro) tiene un periodo de caducidad de:",
+					Respuestas: [
+						{ A: "Doce meses.", correct: false },
+						{ B: "Seis meses.", correct: true },
+						{ C: "Máximo tres meses.", correct: false },
+						{ D: "Un mes.", correct: false },
+					],
+				},
+				{
+					99: "Señala la respuesta CORRECTA, cuando un celador/a es contratado en un centro sanitario deberá:",
+					Respuestas: [
+						{ A: "Todas las respuestas son correctas.", correct: true },
+						{ B: "Valorar el estado inmuno/vacunal frente hepatitis, tétanos.", correct: false },
+						{ C: "Seguir controles periódicos por el servicio de medicina preventiva.", correct: false },
+						{ D: "Si padece una exposición accidental (pinchazo) debe comunicarlo al servicio correspondiente en un plazo de tiempo no superior a 24 horas.", correct: false },
+					],
+				},
+				{
+					100: "En cuanto al lavado de manos quirúrgico, una de las siguientes recomendaciones es FALSA, indica cuál:",
+					Respuestas: [
+						{ A: "Enjabonado con jabón antiséptico durante 3 minutos, aclarado.", correct: true },
+						{ B: "Cepillado de uñas 30 segundos cada mano con cepillo jabonoso, aclarado.", correct: false },
+						{ C: "Secado, sin frotar, con toalla estéril.", correct: false },
+						{ D: "Cerrar el grifo mediante el sistema pedal pie.", correct: false },
+					],
+				},
+				{
+					101: "Las principales recomendaciones en cuanto al uso de guantes son las siguientes, indica la opción ERRÓNEA:",
+					Respuestas: [
+						{ A: "Deben utilizarse cuando pueda existir contacto con sangre, secreciones corporales, fluidos corporales.", correct: false },
+						{ B: "Evitar su uso en situaciones no recomendadas.", correct: false },
+						{ C: "Retirar los guantes después del contacto con el paciente y desecharlo.", correct: false },
+						{ D: "No es necesario realizar higiene de manos al cambiar de guantes.", correct: true },
+					],
+				},
+				{
+					102: "En la UCI, ¿cómo se denominan las unidades especializadas identificadas según patologías que presentan los pacientes?",
+					Respuestas: [
+						{ A: "Cubículos.", correct: false },
+						{ B: "Box o boxes.", correct: true },
+						{ C: "Zonas de vigilancia intensiva.", correct: false },
+						{ D: "Unidades especiales de vigilancia.", correct: false },
+					],
+				},
+				{
+					103: "En la UCI, ¿cuál es la disposición idónea para colocar las camas?",
+					Respuestas: [
+						{ A: "Hacia un lado con la cabecera hacia el centro.", correct: false },
+						{ B: "Siempre a un lado para poder acceder fácilmente al paciente.", correct: false },
+						{ C: "En el centro del box con la cabecera hacia la pared del fondo.", correct: true },
+						{ D: "La posición de la cama no es importante, sino los cuidados que se dispensan al paciente.", correct: false },
+					],
+				},
+				{
+					104: "“Partes del cuerpo humano de entidad suficiente procedente de abortos, mutilaciones, operaciones quirúrgicas o autopsias”, es la definición de:",
+					Respuestas: [
+						{ A: "Cadáver.", correct: false },
+						{ B: "Restos humanos.", correct: true },
+						{ C: "Restos cadavéricos.", correct: false },
+						{ D: "Ninguna de las respuestas anteriores es correcta.", correct: false },
+					],
+				},
+				{
+					105: "El rigor mortis es el endurecimiento del cuerpo que se produce después de la muerte, ¿cuándo se produce?",
+					Respuestas: [
+						{ A: "5 horas de la muerte.", correct: false },
+						{ B: "12 horas de la muerte.", correct: false },
+						{ C: "De 2 a 4 horas de la muerte.", correct: true },
+						{ D: "De 7 a 9 horas de la muerte.", correct: false },
+					],
+				},
+				{
+					106: "Se define como “toda práctica mortuoria que permite la conservación y exposición del cadáver con las debidas garantías sanitarias”:",
+					Respuestas: [
+						{ A: "Tanalogía.", correct: false },
+						{ B: "Tanatopraxia.", correct: true },
+						{ C: "Tanatopsia.", correct: false },
+						{ D: "Tanatoplasia.", correct: false },
+					],
+				},
+				{
+					107: "La muerte es el cese total y definido de todas las funciones vitales del organismo humano. Se suele utilizar la palabra éxitus para referirse al momento del fallecimiento, ¿qué otros nombres recibe ese momento?",
+					Respuestas: [
+						{ A: "Defunción.", correct: false },
+						{ B: "Deceso.", correct: false },
+						{ C: "Óbito.", correct: false },
+						{ D: "Todas son correctas.", correct: true },
+					],
+				},
+				{
+					108: "Según Gisbert Calabuig existen cuatro fases de la muerte, ¿a cuál de estas fases nos referimos si decimos que se produce una extinción o desaparición progresiva e irreversible de la actividad biológica de los diferentes órganos y tejidos?",
+					Respuestas: [
+						{ A: "Fase muerte aparente.", correct: false },
+						{ B: "Fase muerte relativa.", correct: false },
+						{ C: "Fase muerte intermedia.", correct: true },
+						{ D: "Fase muerte absoluta.", correct: false },
+					],
+				},
+				{
+					109: "Según el estatuto de personal no sanitario, ¿quién tiene misión de informar a los familiares de los pacientes fallecidos en la institución, sobre los trámites precisos para llevar a cabo inhumación y/o cremación y si es necesario los pondrán en contacto con la oficina administrativa correspondiente para completar dicha información?",
+					Respuestas: [
+						{ A: "El médico responsable del paciente.", correct: false },
+						{ B: "El enfermero responsable del paciente.", correct: false },
+						{ C: "El jefe de personal subalterno.", correct: true },
+						{ D: "El celador/a de la unidad.", correct: false },
+					],
+				},
+				{
+					110: "La actuación de los celadores/ras en relación con los pacientes fallecidos se centrará en:",
+					Respuestas: [
+						{ A: "Ayudar el personal sanitario en el amortajamiento.", correct: false },
+						{ B: "Trasladar el cadáver al mortuorio.", correct: false },
+						{ C: "Se encargará de amortajar a los enfermos fallecidos.", correct: false },
+						{ D: "Las respuestas A y B son correctas.", correct: true },
+					],
+				},
+				{
+					111: "¿En qué consiste el amortajamiento cuando un paciente fallece?",
+					Respuestas: [
+						{ A: "Desconectar y retirar dispositivos como sondas y catéteres.", correct: false },
+						{ B: "Retirar objetos personales del cuerpo.", correct: false },
+						{ C: "Cerrar los ojos y boca del cadáver.", correct: false },
+						{ D: "Todas las respuestas son correctas.", correct: true },
+					],
+				},
+				{
+					112: "El complejo de la zona mortuoria debe reunir una serie de condiciones, ¿cuál de las siguientes NO se encuentra entre ellas?",
+					Respuestas: [
+						{ A: "Zonas de aparcamiento para familiares.", correct: true },
+						{ B: "Estancias para familiares.", correct: false },
+						{ C: "Espacios para recepción de cadáveres.", correct: false },
+						{ D: "Despachos para manejo de documentos.", correct: false },
+					],
+				},
+				{
+					113: "¿Qué temperatura es la adecuada en el depósito de cadáveres si el paciente va a estar unos días?",
+					Respuestas: [
+						{ A: "4oC.", correct: true },
+						{ B: "6oC.", correct: false },
+						{ C: "5oC.", correct: false },
+						{ D: "2oC.", correct: false },
+					],
+				},
+				{
+					114: "Una celadora está ayudando a una enfermera a amortajar un cadáver para su traslado al mortuorio. Cuando la enfermera le indica que retire la sonda vesical del cadáver, ¿cómo debe actuar la celadora?",
+					Respuestas: [
+						{ A: "Se pondrá los guantes y la retirará con cuidado para no romperla.", correct: false },
+						{ B: "Le indicará a la enfermera que esa no es su función.", correct: true },
+						{ C: "Le pedirá a la enfermera que antes le vacíe el globo vesical.", correct: false },
+						{ D: "Hará lo que le indica la enfermera ya que el trabajo en equipo es fundamental.", correct: false },
+					],
+				},
+				{
+					115: "Cuando hablamos del conjunto de operaciones encaminadas a investigar lesiones capaces de producir muerte, nos referimos a:",
+					Respuestas: [
+						{ A: "Técnica de Virchow.", correct: false },
+						{ B: "Técnica de Chon.", correct: false },
+						{ C: "Técnica de Letulle.", correct: false },
+						{ D: "Técnica de autopsia.", correct: true },
+					],
+				},
+				{
+					116: "¿Cuál de las siguientes técnicas de autopsia es la que se usa con más frecuencia en los hospitales?",
+					Respuestas: [
+						{ A: "Técnica de Letulle.", correct: false },
+						{ B: "Técnica de Chon.", correct: false },
+						{ C: "Técnica de Virchow.", correct: true },
+						{ D: "Ninguna de las opciones anteriores es correcta.", correct: false },
+					],
+				},
+				{
+					117: "¿Cuáles de los siguientes, son requisitos administrativos para realizar una autopsia clínica?",
+					Respuestas: [
+						{ A: "Datos de identificación y ubicación o procedencia del paciente.", correct: false },
+						{ B: "Resumen de la historia clínica.", correct: false },
+						{ C: "Anotaciones sobre la posible causa de la muerte.", correct: false },
+						{ D: "Todas las respuestas anteriores son correctas.", correct: true },
+					],
+				},
+				{
+					118: "La autopsia médico legal se denomina también:",
+					Respuestas: [
+						{ A: "Las respuestas B, C y D son correctas.", correct: true },
+						{ B: "Judicial.", correct: false },
+						{ C: "Forense.", correct: false },
+						{ D: "Médico forense u obducción.", correct: false },
+					],
+				},
+				{
+					119: "¿Cuál de las siguientes son causas de autopsia médico legal de acuerdo con las normas internacionales y lo establecido en nuestra legislación?",
+					Respuestas: [
+						{ A: "Muertes violentas.", correct: false },
+						{ B: "Muertes no violentas.", correct: false },
+						{ C: "Todas las opciones son correctas.", correct: true },
+						{ D: "Muertes misceláneas.", correct: false },
+					],
+				},
+				{
+					120: "¿Qué resolución regula el puesto de celador/a especifico en salas de autopsia denominado 'celador auxiliar de autopsias'?",
+					Respuestas: [
+						{ A: "Resolución 17 de septiembre de 1985.", correct: false },
+						{ B: "Resolución 10 de marzo de 1996.", correct: false },
+						{ C: "Resolución 22 de mayo de 1981.", correct: true },
+						{ D: "Resolución 31 de enero de 1980.", correct: false },
+					],
+				},
+				{
+					121: "¿Cuál de las siguientes respuestas es incorrecta en cuanto a las funciones del celador/a auxiliar de autopsias?",
+					Respuestas: [
+						{ A: "Transporte del cadáver desde el depósito hasta la mesa de autopsias.", correct: false },
+						{ B: "Auxiliar al médico durante la autopsia.", correct: false },
+						{ C: "Llamará al servicio de limpieza para que al finalizar limpie la mesa, la sala y el material de autopsias.", correct: true },
+						{ D: "Vigilar que no acceda a estas dependencias más que el personal autorizado para ello.", correct: false },
+					],
+				},
+				{
+					122: "Las dimensiones de la mesa de autopsias deben ser:",
+					Respuestas: [
+						{ A: "1,90 m de longitud x 0,60 m de ancho.", correct: false },
+						{ B: "2,20 m de longitud x 0,90 m de ancho.", correct: false },
+						{ C: "1,80 m de longitud x 0,70 m de ancho.", correct: false },
+						{ D: "2,10 m de longitud x 0,75 m de ancho.", correct: true },
+					],
+				},
+				{
+					123: "Dentro del material inicial de una autopsia común se encuentra:",
+					Respuestas: [
+						{ A: "Instrumentos para seccionar partes blandas y cartílagos.", correct: false },
+						{ B: "Instrumentos de prensa.", correct: false },
+						{ C: "Instrumentos de medición.", correct: false },
+						{ D: "Todas son correctas.", correct: true },
+					],
+				},
+				{
+					124: "¿Cuál de los siguientes productos no se considera material fungible?",
+					Respuestas: [
+						{ A: "Guantes estériles.", correct: false },
+						{ B: "Hojas de bisturí.", correct: false },
+						{ C: "Almohadas.", correct: true },
+						{ D: "Gasa estériles.", correct: false },
+					],
+				},
+				{
+					125: "Dentro del almacén, NO es función de los celadores:",
+					Respuestas: [
+						{ A: "Comprobación de los vales de suministros o pedidos internos.", correct: false },
+						{ B: "Notificación de la disminución o agotamiento de productos, a fin de tomar medidas para su reposición.", correct: false },
+						{ C: "Colocación de los productos almacenables en sus ubicaciones respectivas.", correct: false },
+						{ D: "Control del gasto del almacén de los diferentes servicios peticionarios.", correct: true },
+					],
+				},
+				{
+					126: "En un hospital existen siempre dos almacenes básicos, ¿sabrías decir cuáles son?",
+					Respuestas: [
+						{ A: "Almacén general y almacén de farmacia.", correct: true },
+						{ B: "Almacén de vestuario y almacén de lencería.", correct: false },
+						{ C: "Almacén de impresos y almacén de equipos de oficina.", correct: false },
+						{ D: "Almacén de impresos y almacén de menaje.", correct: false },
+					],
+				},
+				{
+					127: "Si clasificamos los inventarios según una concepción logística, cuál de los siguientes NO pertenecería a dicha clasificación:",
+					Respuestas: [
+						{ A: "Inventarios cíclicos o de lotes.", correct: false },
+						{ B: "Inventarios de productos ya elaborados.", correct: true },
+						{ C: "Inventarios estaciónales o periódicos.", correct: false },
+						{ D: "Inventarios de seguridad.", correct: false },
+					],
+				},
+				{
+					128: "El material y los productos de hostelería, menaje, comestibles y bebidas, ¿qué consideración tiene dentro de los grupos de artículos que consume un hospital?",
+					Respuestas: [
+						{ A: "Material sanitario.", correct: false },
+						{ B: "Material no sanitario.", correct: true },
+						{ C: "Material volátil.", correct: false },
+						{ D: "Otro material.", correct: false },
+					],
+				},
+				{
+					129: "En un almacén, ¿qué entendemos por stock?",
+					Respuestas: [
+						{ A: "Función de contar las existencias en un momento determinado.", correct: false },
+						{ B: "Información que permite conocer en todo momento las entradas, las salidas y las existencias.", correct: true },
+						{ C: "Distribución y consumo de materiales por los servicios.", correct: false },
+						{ D: "Estancia provisional de mercancía en el almacén.", correct: false },
+					],
+				},
+				{
+					130: "¿Qué es un código de barras?",
+					Respuestas: [
+						{ A: "Conjunto de signos formado por una serie de líneas y números asociados a ellas, que se pone sobre los productos de consumo y se utiliza para la gestión informática de las existencias.", correct: true },
+						{ B: "Conjunto de estanterías limitadas por una serie de barras sucesivas para impedir el deterioro de las existencias.", correct: false },
+						{ C: "Conjunto de líneas que sirven para identificar el precio máximo de los artículos.", correct: false },
+						{ D: "Número de líneas continuas que identifican el volumen de producto de un almacén.", correct: false },
+					],
+				},
+				{
+					131: "Dentro del servicio de almacén, ¿quién debe realizar la entrega de los pedidos programados a las personas que acuden a retirarlos?",
+					Respuestas: [
+						{ A: "El celador del servicio al que corresponde el pedido.", correct: false },
+						{ B: "El encargado de suministro.", correct: false },
+						{ C: "El auxiliar administrativo del almacén.", correct: false },
+						{ D: "El celador de almacén.", correct: true },
+					],
+				},
+				{
+					132: "A la hora de ubicar un muelle de carga para un almacén hospitalario debemos tener en cuenta que:",
+					Respuestas: [
+						{ A: "Se puede ubicar en cualquier sitio que creamos conveniente.", correct: false },
+						{ B: "Habrá que tener en cuenta las comodidades de los que van a trabajar en ese lugar.", correct: false },
+						{ C: "Esté cerca de la sede de las ambulancias para aprovechar el mismo espacio.", correct: false },
+						{ D: "No este próximo a las zonas asistenciales, para que no influya en el tránsito de las ambulancias y evitar ruidos que perjudiquen a los enfermos.", correct: true },
+					],
+				},
+				{
+					133: "La función de contar las existencias de un almacén en un momento determinado se denomina:",
+					Respuestas: [
+						{ A: "Entradas.", correct: false },
+						{ B: "Almacenaje.", correct: false },
+						{ C: "Salidas.", correct: false },
+						{ D: "Inventario.", correct: true },
+					],
+				},
+				{
+					134: "El concepto importante en la gestión de almacenes que mide el tiempo transcurrido desde que un artículo entra en el almacén hasta que se produce su salida, recibe el nombre de:",
+					Respuestas: [
+						{ A: "Índice cronológico.", correct: false },
+						{ B: "Índice aleatorio.", correct: false },
+						{ C: "Índice operativo.", correct: false },
+						{ D: "Índice de rotación.", correct: true },
+					],
+				},
+				{
+					135: "Entre las tareas propias del celador en almacén NO figura:",
+					Respuestas: [
+						{ A: "Notificación de la disminución o agotamiento de productos, a fin de tomar medidas para su reposición.", correct: false },
+						{ B: "Entrega de productos no programados, en su caso, o urgentes.", correct: false },
+						{ C: "Colocación de los productos almacenables en sus ubicaciones respectivas.", correct: false },
+						{ D: "Realizar informes mensuales con la valoración económica de los movimientos del almacén.", correct: true },
+					],
+				},
+				{
+					136: "¿Cuál es el objetivo final de los almacenes hospitalarios?",
+					Respuestas: [
+						{ A: "Proporcionar puestos de trabajo a los celadores.", correct: false },
+						{ B: "La distribución de pedidos.", correct: true },
+						{ C: "Facilitar los suministros externos del hospital.", correct: false },
+						{ D: "Todas las respuestas anteriores son correctas.", correct: false },
+					],
+				},
+				{
+					137: "En cuanto a la organización del almacén, el celador tendrá a su cargo, además de la vigilancia, el cierre de puertas de la zona de almacenaje:",
+					Respuestas: [
+						{ A: "No, sólo si son puertas del área de hospitalización.", correct: false },
+						{ B: "Si, cuando no haya guarda de seguridad.", correct: false },
+						{ C: "Si.", correct: true },
+						{ D: "No, el cierre de puertas corresponde al personal de oficio.", correct: false },
+					],
+				},
+				{
+					138: "Con relación a las tareas del celador en la zona de acceso de almacén general, el celador deberá:",
+					Respuestas: [
+						{ A: "Permitir el paso a todo el que desee entrar.", correct: false },
+						{ B: "No dejar pasar a nadie para evitar robos de material.", correct: false },
+						{ C: "Sólo dejará pasar a quien tenga que descargar mercancías.", correct: true },
+						{ D: "No permitir el acceso a sus dependencias más que a las personas autorizadas para ello.", correct: false },
+					],
+				},
+				{
+					139: "En el almacenamiento nos referimos a un stock como:",
+					Respuestas: [
+						{ A: "La cantidad de productos que se encuentran en el almacén.", correct: true },
+						{ B: "La cantidad de artículos consumidos.", correct: false },
+						{ C: "Control de las existencias de cada artículo para evitar situaciones de desabastecimiento.", correct: false },
+						{ D: "La cantidad de productos pedidos a suministros externos.", correct: false },
+					],
+				},
+				{
+					140: "Señale cuál de las siguientes cuestiones se relaciona con el alojamiento de los productos en el almacén:",
+					Respuestas: [
+						{ A: "Descargar, abrir cajas y envoltorios.", correct: false },
+						{ B: "Evitar pérdidas, robos y mermas.", correct: false },
+						{ C: "Identificación clara y precisa de las estanterías.", correct: true },
+						{ D: "Determinar la existencia real.", correct: false },
+					],
+				},
+				{
+					141: "¿Qué es material fungible?",
+					Respuestas: [
+						{ A: "Aquel que desaparece o deteriora con su uso.", correct: true },
+						{ B: "Aquel que es estéril.", correct: false },
+						{ C: "Las respuestas A y B son correctas.", correct: false },
+						{ D: "Ninguna de las respuestas anteriores es correcta.", correct: false },
+					],
+				},
+				{
+					142: "El material que tras su uso requiere ser tratado para volver a ser utilizado nuevamente se llama:",
+					Respuestas: [
+						{ A: "Consumible o fungible.", correct: false },
+						{ B: "Desechable.", correct: false },
+						{ C: "Reutilizable.", correct: true },
+						{ D: "No consumible o inventariable.", correct: false },
+					],
+				},
+				{
+					143: "¿De quién es función la carga y descarga de los productos que lleguen o se encuentren en un almacén de un centro sanitario?",
+					Respuestas: [
+						{ A: "Del auxiliar administrativo.", correct: false },
+						{ B: "Del peón.", correct: false },
+						{ C: "Del personal de mantenimiento.", correct: false },
+						{ D: "Del celador del almacén.", correct: true },
+					],
+				},
+				{
+					144: "La estancia provisional de las mercancías en el almacén, lo que implica colocación, conservación y control de las existencias, se denomina:",
+					Respuestas: [
+						{ A: "Almacenaje.", correct: true },
+						{ B: "Inventario.", correct: false },
+						{ C: "Stockaje.", correct: false },
+						{ D: "Todas son correctas.", correct: false },
+					],
+				},
+				{
+					145: "En el servicio de farmacia hospitalaria, ¿qué profesionales prestan servicio?",
+					Respuestas: [
+						{ A: "Farmacéuticos.", correct: false },
+						{ B: "FIR (farmacéutico interno residente).", correct: false },
+						{ C: "DUE / TCAE / celador/a.", correct: false },
+						{ D: "Todas son correctas.", correct: true },
+					],
+				},
+				{
+					146: "Si nos referimos a; toda materia, cualquiera que sea su origen a la que se le atribuye una actividad apropiada para constituir un medicamento, estamos hablando de:",
+					Respuestas: [
+						{ A: "Excipiente.", correct: false },
+						{ B: "Materia prima.", correct: false },
+						{ C: "Fórmula magistral.", correct: false },
+						{ D: "Principio activo.", correct: true },
+					],
+				},
+				{
+					147: "¿Cuál de las siguientes es la definición de excipiente?",
+					Respuestas: [
+						{ A: "Es el destinado a una posterior transformación industrial por un fabricante autorizado.", correct: false },
+						{ B: "Aquella materia que se añada a los principios activos para servirles de vehículo, posibilitar su preparación y estabilidad.", correct: true },
+						{ C: "Todo medicamento que tenga la misma composición en principios activos y la misma forma farmacéutica.", correct: false },
+						{ D: "Forma farmacéutica de un principio activo que se investiga como referencia de un ensayo clínico.", correct: false },
+					],
+				},
+				{
+					148: "“Actividad de salud pública que tiene como objetivo la identificación, cuantificación, evaluación y prevención de riesgos del uso de los medicamentos, permitiendo así el seguimiento de los posibles efectos adversos de los medicamentos”, es la definición de:",
+					Respuestas: [
+						{ A: "Radiofármaco.", correct: false },
+						{ B: "Farmacovigilancia.", correct: true },
+						{ C: "Preparado o fórmula oficial.", correct: false },
+						{ D: "Ninguna es correcta.", correct: false },
+					],
+				},
+				{
+					149: "¿Cuál de las siguientes opciones es la incorrecta con respecto al área de citostáticos de una farmacia hospitalaria?",
+					Respuestas: [
+						{ A: "Es una zona aislada del resto del servicio.", correct: false },
+						{ B: "Es de acceso libre siempre que se utilicen calzas y gorro.", correct: true },
+						{ C: "Debe poseer una campaña de flujo laminar vertical.", correct: false },
+						{ D: "Sin recirculación de aire ni aire acondicionado.", correct: false },
+					],
+				},
+				{
+					150: "¿Cuál de las siguientes son funciones del celador/a en el almacén de farmacia?",
+					Respuestas: [
+						{ A: "Recepción de material.", correct: false },
+						{ B: "Transporte de material dentro de la farmacia.", correct: false },
+						{ C: "Dispensación de determinado material.", correct: false },
+						{ D: "Todas son funciones del celador/a.", correct: true },
+					],
+				},
+				{
+					151: "¿Qué significa que la distribución de medicamentos se realice por el método de “unidosis”?",
+					Respuestas: [
+						{ A: "Envases individualizados por paciente y día.", correct: true },
+						{ B: "Sólo se administrará una dosis al día al paciente.", correct: false },
+						{ C: "El pedido de unidosis la realizará dirección de enfermería.", correct: false },
+						{ D: "Ninguna es correcta.", correct: false },
+					],
+				},
+				{
+					152: "¿Cuál de las siguientes actividades NO se realiza en un servicio de farmacia?",
+					Respuestas: [
+						{ A: "Control, dispensación de estupefacientes y psicótropos.", correct: false },
+						{ B: "Control, dispensación de medicamentos extranjeros.", correct: false },
+						{ C: "Control de botiquines en unidades hospitalarias.", correct: false },
+						{ D: "Control del uso de alcohol 90o en unidades de hospitalización.", correct: true },
+					],
+				},
+				{
+					153: '"Es una técnica que se realiza cuando no es posible una adecuada alimentación por vía oral o por sonda", es la definición de:',
+					Respuestas: [
+						{ A: "Nutrición enteral.", correct: false },
+						{ B: "Nutrición artificial.", correct: false },
+						{ C: "Nutrición parenteral.", correct: true },
+						{ D: "Todas son correctas.", correct: false },
+					],
+				},
+				{
+					154: "De las siguientes opciones, ¿cuál se considera centro o establecimiento, si hablamos del animalario?",
+					Respuestas: [
+						{ A: "Organismo público o privado, autorizada por el órgano competente para realizar algunas de las funciones específicas.", correct: false },
+						{ B: "Utilización, tanto invasiva como no invasiva, de un animal con fines experimentales.", correct: false },
+						{ C: "Toda instalación, edificio, grupo de edificios u otros locales e instalaciones móviles, incluidos aquellos no totalmente cerrados o cubiertos.", correct: true },
+						{ D: "Todas son incorrectas.", correct: false },
+					],
+				},
+				{
+					155: "La utilización de animales en los procedimientos solo podrá tener lugar cuando persiga alguno de estos fines, indica la opción INCORRECTA:",
+					Respuestas: [
+						{ A: "Investigación traslacional o aplicada.", correct: false },
+						{ B: "Investigación fundamental.", correct: false },
+						{ C: "La investigación dirigida a la eliminación de especies.", correct: true },
+						{ D: "La medicina legal y forense.", correct: false },
+					],
+				},
+				{
+					156: "El Real Decreto 53/2013 establece como principio general la promoción e implementación del 'principio de las tres erres', ¿a qué hacen referencia?",
+					Respuestas: [
+						{ A: "Regeneración, reemplazo y recuperación.", correct: false },
+						{ B: "Reemplazo, reducción y refinamiento.", correct: true },
+						{ C: "Refinamiento, regeneración y revisión.", correct: false },
+						{ D: "Regeneración, recuperación y revisión.", correct: false },
+					],
+				},
+				{
+					157: "¿A qué hace referencia el principio de reducción?",
+					Respuestas: [
+						{ A: "El número de animales utilizados se reducirá al mínimo siempre que ello no comprometa los objetivos del proyecto.", correct: true },
+						{ B: "Se utilizará siempre que sea posible, en lugar de un procedimiento que no conlleven la utilización de animales vivos.", correct: false },
+						{ C: "Los métodos utilizados se refinarán tanto como sea posible para recudir al mínimo cualquier posible dolor.", correct: false },
+						{ D: "Ninguna es correcta.", correct: false },
+					],
+				},
+				{
+					158: "¿Cómo debe realizarse la eutanasia de los animales?",
+					Respuestas: [
+						{ A: "Con el menor dolor, sufrimiento y angustia posibles.", correct: false },
+						{ B: "Se llevará a cabo por una persona cualificada.", correct: false },
+						{ C: "En un establecimiento de un criador.", correct: false },
+						{ D: "Todas las opciones son correctas.", correct: true },
+					],
+				},
+				{
+					159: "¿Qué tipo de métodos se utilizarán para la eutanasia de los animales?",
+					Respuestas: [
+						{ A: "Decapitación.", correct: false },
+						{ B: "Dióxido de carbono.", correct: false },
+						{ C: "Aturdimiento eléctrico.", correct: false },
+						{ D: "Todas las opciones anteriores son correctas.", correct: true },
+					],
+				},
+				{
+					160: "Las condiciones ambientales en las que se críen, mantengan o utilicen los animales, ¿con qué frecuencia se deben verificar?",
+					Respuestas: [
+						{ A: "Semanalmente.", correct: false },
+						{ B: "Cada dos o tres días.", correct: false },
+						{ C: "A diario.", correct: true },
+						{ D: "No hay una frecuencia establecida.", correct: false },
+					],
+				},
+				{
+					161: "En cuanto al transporte de animales, indica la opción INCORRECTA:",
+					Respuestas: [
+						{ A: "La normativa vigente no influye en el transporte de animales.", correct: true },
+						{ B: "Los contenedores garantizarán la contención de los animales.", correct: false },
+						{ C: "Los vehículos dispondrán de sistemas de anclaje cuando proceda.", correct: false },
+						{ D: "El transporte de animales se realizará según la normativa vigente.", correct: false },
+					],
+				},
+				{
+					162: "Los criadores, suministradores y usuarios deberán registrar una serie de datos, ¿cuál de los siguientes no es uno de ellos?",
+					Respuestas: [
+						{ A: "Nombre y número de registro del centro.", correct: false },
+						{ B: "Número de animales en el centro en el momento del abrir el registro.", correct: false },
+						{ C: "Número de veces al día que se debe alimentar al animal.", correct: true },
+						{ D: "Los animales utilizados en procedimientos indicando el proyecto.", correct: false },
+					],
+				},
+				{
+					163: "¿Cuál de las siguientes son funciones del celador/a dentro del animalario?",
+					Respuestas: [
+						{ A: "Se encargarán del adecuado manejo de los animales según sus características.", correct: false },
+						{ B: "Se encargarán de que los bebederos estén siempre abastecidos de agua suficiente.", correct: false },
+						{ C: "Todas son funciones del celador/a en el animalario.", correct: true },
+						{ D: "Lavarán las cubetas y jaulas de los animales con la periodicidad necesaria.", correct: false },
+					],
+				},
+				{
+					164: "¿Qué Real Decreto tiene por objeto establecer las normas aplicables para la protección de los animales utilizados, criados o suministrados con fines de experimentación y otros fines científicos incluyendo la educación y docencia?",
+					Respuestas: [
+						{ A: "Real Decreto 32/2007.", correct: false },
+						{ B: "Real Decreto 63/2010.", correct: false },
+						{ C: "Real Decreto 20/2012.", correct: false },
+						{ D: "Real Decreto 53/2013.", correct: true },
+					],
+				},
+				{
+					165: "La documentación clínica tiene diversas utilidades como (señala la respuesta CORRECTA):",
+					Respuestas: [
+						{ A: "Evaluación de la calidad de la asistencia sanitaria.", correct: false },
+						{ B: "Obtención de datos epidemiológicos.", correct: false },
+						{ C: "Material para la investigación y docencia.", correct: false },
+						{ D: "Todas las respuestas anteriores son correctas.", correct: true },
+					],
+				},
+				{
+					166: "El transporte de documentación:",
+					Respuestas: [
+						{ A: "Debe realizarlo el auxiliar administrativo.", correct: false },
+						{ B: "Es función de otro tipo de personal.", correct: false },
+						{ C: "Es función del celador.", correct: true },
+						{ D: "Es función del TCAE.", correct: false },
+					],
+				},
+				{
+					167: "No es un documento clínico de uso hospitalario:",
+					Respuestas: [
+						{ A: "Hoja de urgencias.", correct: false },
+						{ B: "Orden de tratamiento.", correct: false },
+						{ C: "Hoja operatoria.", correct: false },
+						{ D: "Impreso de citación.", correct: true },
+					],
+				},
+				{
+					168: "“El conjunto de documentos que contiene los datos, valoraciones e informaciones de cualquier índole sobre la situación y la evolución clínica de un paciente a lo largo del proceso asistencial”, es lo que se conoce como:",
+					Respuestas: [
+						{ A: "Documentación clínica.", correct: false },
+						{ B: "Historia clínica.", correct: true },
+						{ C: "Información clínica.", correct: false },
+						{ D: "Informe de alta médica.", correct: false },
+					],
+				},
+				{
+					169: "Cuando la información sanitaria generada se documenta después de la atención recibida en atención primaria, especializada o socio-sanitaria, hablamos de:",
+					Respuestas: [
+						{ A: "Documentación clínica.", correct: false },
+						{ B: "Documentación sanitaria.", correct: true },
+						{ C: "Historias clínicas.", correct: false },
+						{ D: "Todas las respuestas anteriores son correctas.", correct: false },
+					],
+				},
+				{
+					170: "El documento acreditativo del derecho a la protección de la salud de los ciudadanos, es:",
+					Respuestas: [
+						{ A: "La tarjeta sanitaria.", correct: true },
+						{ B: "El DNI o NIF.", correct: false },
+						{ C: "El pasaporte.", correct: false },
+						{ D: "La cartilla de la seguridad social.", correct: false },
+					],
+				},
+				{
+					171: "Son documentos clínicos de uso en atención primaria todos, excepto:",
+					Respuestas: [
+						{ A: "Impreso de citación.", correct: false },
+						{ B: "Hoja de ingreso.", correct: true },
+						{ C: "Impreso de solicitud de pruebas complementarias.", correct: false },
+						{ D: "Historia de enfermería.", correct: false },
+					],
+				}
 
 			]
 		},
 		actions: {
-			// Use getActions to call a function within a fuction
-			exampleFunction: () => {
-				getActions().changeColor(0, "green");
-			},
-			loadSomeData: () => {
-				/**
-					fetch().then().then(data => setStore({ "foo": data.bar }))
-				*/
-			},
-			changeColor: (index, color) => {
-				//get the store
-				const store = getStore();
 
-				//we have to loop the entire demo array to look for the respective index
-				//and change its color
-				const demo = store.demo.map((elm, i) => {
-					if (i === index) elm.background = color;
-					return elm;
-				});
-
-				//reset the global store
-				setStore({ demo: demo });
-			}
 		}
 	};
 };
