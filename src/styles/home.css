@@ -1,14 +1,52 @@
 .container {
     display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.opciones {
+    height: 50vh;
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    gap: 20vh;
+}
 
+.home-button{
+    background-color: #A8C41B;
+    border: 3px solid #A19491;
+    height: 100px;
+    width: 200px;
+    border-radius: 30px;
+}
+.enunciado{
+    background-color: #0ab0bc50;
+    border-radius: 20px;
+}
+
+.examen {
+    display: block;
+    justify-content:flex-start;
+}
+
+.fin-examen {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.preguntas{
+    justify-content: left;
+    align-items: center;
 }
 
 li {
     font-size: 1.5em;
     list-style: none;
     cursor: pointer;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
 }
 li:hover {
     background-color: rgba(211, 211, 211, 0.61);
@@ -17,11 +55,20 @@ li:hover {
 .respuestas {
     display: block;
 }
+.resultado {
+    background-color: #FAA30D;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
 .success{
-    background-color: rgba(17, 187, 39, 0.5);
+    background-color: rgba(17, 187, 40, 0.404);
 }
 .wrong{
-    background-color: rgba(165, 42, 42, 0.644);
+    background-color: rgba(165, 42, 42, 0.479);
+}
+.selected{
+    background-color: rgb(245, 245, 164);
 }
 @media (hover:none) {
     li.success:hover {
