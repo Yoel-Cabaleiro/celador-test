@@ -1542,9 +1542,20 @@ const getState = ({ getStore, getActions, setStore }) => {
 					],
 				}
 
-			]
+			],
+			preguntasFalladas: []
 		},
 		actions: {
+			getPreguntasFalladas: () => {
+				let fallos = localStorage.getItem("fallos")
+				const store = getStore()
+				if (!fallos) {
+					localStorage.setItem("fallos", JSON.stringify([]))
+				}
+				else {
+					setStore({ preguntasFalladas: JSON.parse(fallos) })
+				}
+			}
 
 		}
 	};

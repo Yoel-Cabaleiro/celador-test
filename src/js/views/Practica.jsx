@@ -11,6 +11,7 @@ export const Practica = () => {
     const [pregunta, setPregunta] = useState({})
     const [clases, setClases] = useState(["", "", "", ""])
     const [respuestaSeleccionada, setRespuestaSeleccionada] = useState(false)
+    const [count, setCount] = useState(0)
 
     useEffect(() => {
         const random = Math.floor(Math.random() * (store.preguntas.length - 1))
@@ -25,15 +26,31 @@ export const Practica = () => {
     }, [pregunta])
 
     const handlePregunta = () => {
-        const random = Math.floor(Math.random() * (store.preguntas.length - 1))
-        const preguntaRandom = store.preguntas[random]
-        setPregunta(preguntaRandom)
+        if (count % 4 == 0 && store.preguntasFalladas.length > 0) {
+            const random = Math.floor(Math.random() * (store.preguntasFalladas.length))
+            const numPreguntaRandom = store.preguntasFalladas[random]
+            const preguntaRandom = store.preguntas[numPreguntaRandom - 1]
+            setPregunta(preguntaRandom)
+            /* store.preguntasFalladas.splice(random, 1)
+            localStorage.setItem("fallos", JSON.stringify(store.preguntasFalladas)) */
+        }
+        else {
+            const random = Math.floor(Math.random() * (store.preguntas.length))
+            const preguntaRandom = store.preguntas[random]
+            setPregunta(preguntaRandom)
+        }
+        setCount((prevState) => prevState + 1)
     }
 
     const resolve = (index, item) => {
         const nuevasClases = [...clases]
         if (item.correct === true) {
             nuevasClases[index] = "success"
+            const falladasFiltered = store.preguntasFalladas.filter(i => i != Object.keys(pregunta)[0])
+            store.preguntasFalladas = falladasFiltered
+            localStorage.setItem("fallos", JSON.stringify(store.preguntasFalladas))
+            console.log(store.preguntasFalladas)
+
         }
         else {
             nuevasClases[index] = "wrong"

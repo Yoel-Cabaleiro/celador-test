@@ -41,13 +41,17 @@ export const Examen = () => {
             if (respuestaCorrectaIndex === indx) {
                 return "my-2 success";
             } else if (respuestasSeleccionadas[index] === indx) {
+                store.preguntasFalladas.push(Object.keys(item)[0])
                 return "my-2 wrong";
             }
+            console.log(store.preguntasFalladas)
+            localStorage.setItem("fallos", JSON.stringify(store.preguntasFalladas))
         } else {
             if (respuestasSeleccionadas[index] === indx) {
                 return "my-2 selected";
             }
         }
+
         return "my-2"
     };
 
@@ -96,7 +100,6 @@ export const Examen = () => {
                     <button onClick={evaluate} className="btn btn-primary">Corregir</button>
                     <div className="resultado"><h1>Nota final: {resultado} / 10</h1></div>
                 </div>
-
             </div>)}
         </>
     )
